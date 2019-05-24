@@ -28,27 +28,3 @@ code --install-extension vscode-icons-team.vscode-icons
 code --install-extension wesbos.theme-cobalt2
 code --install-extension wix.vscode-import-cost
 ```
-
-### settings.json
-#### Consider using .eslint for prettifying
-```
-{
-    "workbench.colorTheme": "Cobalt2",
-    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontSize": 14,
-    "editor.lineHeight": 27,
-    "editor.letterSpacing": 0.5,
-    "files.trimTrailingWhitespace": true,
-    "editor.fontWeight": "100",
-    "prettier.eslintIntegration": true,
-    "editor.cursorStyle": "line",
-    "editor.cursorWidth": 5,
-    "editor.cursorBlinking": "solid",
-    "editor.renderWhitespace": "all",
-    "workbench.iconTheme": "vscode-icons",
-    "editor.formatOnSave": true,
-    "[javascript]": {
-	    "editor.formatOnSave": false
-    }
-  }
-```
