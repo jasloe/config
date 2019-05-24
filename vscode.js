@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 29,
-  "editor.lineHeight": 45,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
   "editor.quickSuggestionsDelay": 30,
   "editor.letterSpacing": 0.5,
   "workbench.editor.tabSizing": "shrink",
@@ -9,22 +9,18 @@
   "html.format.preserveNewLines": true,
   "files.trimTrailingWhitespace": true,
   "editor.tabSize": 2,
-  "editor.cursorWidth": 5,
-  // this isn't really underline but we hack it to be a thicker cursor
-  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 1,
+  "editor.cursorStyle": "underline",
   "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.fontWeight": "400",
-  "editor.cursorBlinking": "solid",
+  "editor.cursorBlinking": "blinking",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [
-    80,
-    100
-  ],
+  "editor.rulers": [80, 100],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -38,30 +34,20 @@
   },
   "workbench.colorTheme": "Cobalt2",
   "workbench.editor.tabCloseButton": "off",
-"emmet.includeLanguages": {
+  "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "vue-html": "html",
-    "razor": "html",
-    "plaintext": "jade"
+    "vue-html": "html"
   },
-  // show snippets before any other auto completion
   "editor.snippetSuggestions": "top",
-  // this lets you quick open multiple items in a row and now have the previous ones closed on you
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "sublimeTextKeymap.promptV3Features": true,
-  // These are all my auto-save configs
   "editor.formatOnSave": true,
-  // turn it off for JS
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  // tell the ESLint plugin to run on save
   "eslint.autoFixOnSave": true,
-  // Optional: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": [
-    "js"
-  ],
+  "prettier.disableLanguages": ["js"],
   "eslint.alwaysShowStatus": true,
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
@@ -76,5 +62,6 @@
   "editor.useTabStops": true,
   "editor.formatOnPaste": true,
   "window.zoomLevel": 0,
-  "editor.parameterHints.enabled": false
-}}
+  "editor.parameterHints.enabled": false,
+  "workbench.iconTheme": "vscode-icons"
+}
