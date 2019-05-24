@@ -1,3 +1,10 @@
+# Moving to fish!
+# brew install fish
+# sudo echo "/usr/local/bin/fish" >> /etc/shells
+# chsh -s
+
+# alias fix-spotlight='find . -type d -name "node_modules" -exec touch "{}/.metadata_never_index" \;'
+
 export TERM=xterm-256color
 
 export ZSH=$HOME/.oh-my-zsh
