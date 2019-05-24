@@ -1,5 +1,6 @@
 {
-  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
   "editor.fontSize": 16,
   "editor.lineHeight": 25,
   "editor.quickSuggestionsDelay": 30,
@@ -13,7 +14,7 @@
   "editor.cursorStyle": "underline",
   "editor.wordWrap": "on",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "100",
   "editor.cursorBlinking": "blinking",
   "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
@@ -63,5 +64,74 @@
   "editor.formatOnPaste": true,
   "window.zoomLevel": 0,
   "editor.parameterHints.enabled": false,
-  "workbench.iconTheme": "vscode-icons"
-}
+  "workbench.iconTheme": "vscode-icons",
+  "vscode_custom_css.imports": [
+    "file:///Users/jrl/.vscode/style.css"
+  ],
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "punctuation",
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "scope": "punctuation.definition.comment",
+        "settings": {
+          "foreground": "#676767",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "punctuation.definition.tag.begin",
+        "settings": {
+          "foreground": "#d0d0d0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.tag.end",
+        "settings": {
+          "foreground": "#d0d0d0"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.begin",
+        "settings": {
+          "foreground": "#f7bb9f"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.end",
+        "settings": {
+          "foreground": "#f7bb9f"
+        }
+      },
+      {
+        "scope": "variable.other.object",
+        "settings": {
+          "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "variable.other.property",
+        "settings": {
+          "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite",
+        "settings": {
+          "foreground": "#569cd6"
+        }
+      },
+      {
+        "scope": "meta.identifier",
+        "settings": {
+          "foreground": "#CE9178"
+        },
+      }
+    ],
+
+  }
+]
