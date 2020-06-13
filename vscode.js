@@ -1,7 +1,9 @@
 {
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
   "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.lineHeight": 25,
   "editor.quickSuggestionsDelay": 30,
   "editor.letterSpacing": 0.5,
@@ -21,7 +23,10 @@
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "left",
   "editor.renderWhitespace": "none",
-  "editor.rulers": [80, 100],
+  "editor.rulers": [
+    80,
+    100
+  ],
   "editor.minimap.showSlider": "always",
   "workbench.startupEditor": "newUntitledFile",
   "extensions.ignoreRecommendations": false,
@@ -44,11 +49,8 @@
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
   "sublimeTextKeymap.promptV3Features": true,
   "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false
-  },
+  "editor.defaultFormatter": "SimonSiefke.prettier-vscode",
   "eslint.autoFixOnSave": true,
-  "prettier.disableLanguages": ["js"],
   "eslint.alwaysShowStatus": true,
   "editor.autoIndent": true,
   "window.closeWhenEmpty": true,
@@ -129,9 +131,16 @@
         "scope": "meta.identifier",
         "settings": {
           "foreground": "#CE9178"
-        },
+        }
       }
-    ],
-
-  }
-]
+    ]
+  },
+  "explorer.confirmDragAndDrop": false,
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.rendererType": "dom",
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
